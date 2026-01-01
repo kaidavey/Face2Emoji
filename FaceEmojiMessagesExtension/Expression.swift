@@ -14,6 +14,8 @@ enum Expression: String, CaseIterable {
     case surprised = "Surprised"
     case angry = "Angry"
     case neutral = "Neutral"
+    case disgusted = "Disgusted"
+    case fearful = "Fearful"
 }
 
 /// Result of expression detection with confidence
